@@ -4,7 +4,7 @@ An end-to-end behavioral anomaly detection workflow for a music streaming platfo
 
 ## Project Overview
 
-This repository frames artificial streaming as a platform integrity problem rather than only a narrow fraud use case. The goal is to distinguish natural music engagement from suspicious behavior that can distort artist rankings, royalty allocation, recommendation quality, and trust in the product ecosystem.
+This repository frames artificial streaming as a platform integrity problem. The goal is to distinguish natural music engagement from suspicious behavior that can distort artist rankings, royalty allocation, recommendation quality, and trust in the product ecosystem.
 
 The repository includes two main deliverables:
 
@@ -161,10 +161,6 @@ spotify_streaming_integrity/
 - Threshold selection materially changes moderation workload; a tighter threshold can reduce false positives while still capturing most suspicious stream volume.
 - Heavy legitimate listeners create important edge cases, which makes feature engineering and review policy design more important than raw model accuracy alone.
 
-## Future Improvements
+## Author
+***Shwetha Tinnium Raju***
 
-- Add graph-based detection on account, IP, device, and artist networks
-- Incorporate event sequences and temporal models for session path analysis
-- Use real platform telemetry and reviewer outcomes for threshold calibration
-- Add intervention experiments to test soft friction, manual review, and enforcement policies
-- Extend fairness analysis for premium users, new accounts, and shared-household behavior
