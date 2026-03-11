@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.ipynb_checkpoints/
+anaconda_projects/
+
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+
+outputs/figures/*.png
+outputs/metrics/*.csv
+outputs/metrics/*.json
+outputs/tables/*.csv
