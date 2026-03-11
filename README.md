@@ -162,5 +162,5 @@ spotify_streaming_integrity/
 - Heavy legitimate listeners create important edge cases, which makes feature engineering and review policy design more important than raw model accuracy alone.
 
 ## Author
-***Shwetha Tinnium Raju***
+**Shwetha Tinnium Raju**
 
